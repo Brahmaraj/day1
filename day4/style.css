@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ol,ul{
+    margin-left: 50px;
+}
+#external{
+    font-size: 30px;
+    color: chocolate;
+}
+#box{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    margin: 20px 20px 20px 20px;
+    padding: 20px 20px 20px 20px;
+}
+#container{
+    width: 90vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.box{
+    margin: 50px 0 0 50px;
+    width: 400px;
+    height: 400px;
+    background-color: cadetblue;
+}
