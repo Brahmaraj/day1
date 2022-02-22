@@ -13,6 +13,8 @@ body{
     height: 80vh;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 2fr 3fr 4fr 1fr;
+    font-size: 30px;
+    font-weight: 700;
 }
 
 .box{
