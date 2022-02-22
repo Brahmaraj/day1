@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#container{
+    display: grid;
+    width: 60vw;
+    height: 80vh;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 2fr 3fr 4fr 1fr;
+}
+
+.box{
+    margin: 10px 10px 10px 10px;
+    background-color: aqua; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box1{
+    grid-column: 1/-1;
+}
+.box2{
+    grid-row: 2/4;
+}
+.box5{
+    grid-column: 1/-1;
+}
+.box6{
+    grid-column: 1/-1;
+}
