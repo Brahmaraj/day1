@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+}
+
+#box1{
+    background-image: linear-gradient(to left,pink,lightblue,lightgreen);
+    float: left;
+}
+
+#box2{
+    background-image: radial-gradient(pink,lightblue,lightgreen);
+    float: right;
+    clear: left;
+}
