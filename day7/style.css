@@ -6,7 +6,9 @@
 .box{
     width: 200px;
     height: 200px;
-    border: 1px solid black;
+    border: 5px solid lawngreen;
+    margin: 10px;
+    padding: 5px;
 }
 
 #box1{
@@ -18,4 +20,14 @@
     background-image: radial-gradient(pink,lightblue,lightgreen);
     float: right;
     clear: left;
+}
+
+#box3{
+    background-color: aquamarine;
+    clear: right;
+    box-sizing: border-box;
+}
+#box4{
+    background-color: cadetblue;
+    box-sizing: content-box;
 }
