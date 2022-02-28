@@ -13,7 +13,25 @@
     /* transform 2s, */
 }
 
+.box2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 500px;
+    border: 2px solid black;
+    box-shadow: 0px 20px 50px 20px blue;
+    text-shadow: 5px 5px 5px brown;
+    font-size: 30px;
+    margin: 100px 0 0 100px;
+    transition:  transform 2s ease-in; 
+    /* transform 2s, */
+}
+
 .box:hover{
-    /* transform: rotate(360deg) translateX(1000px); */
     width: 900px;
+}
+
+.box2:hover{
+    transform: rotate(360deg);
 }
